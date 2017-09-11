@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme"
+           parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base"
+           parent="QMUI.Compat">
+        <item name="qmui_config_color_blue">@color/colorPrimaryDark</item>
+        <item name="qmui_dialog_action_text_color">@color/colorPrimaryDark</item>
+        <!--将ActionBar隐藏,这里使用ToolBar-->
+        <item name="windowActionBar">false</item>
+        <!-- 使用 API Level 22以上编译的话，要拿掉前綴字 -->
+        <item name="windowNoTitle">true</item>
+        <!--colorPrimaryDark对应状态栏的颜色-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--colorPrimary 对应ToolBar的颜色-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--colorAccent 对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色。-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--窗口的颜色-->
+        <item name="android:windowBackground">@color/windowColor</item>
+        <item name="android:textColor">@color/baseTextColor</item>
+    </style>
+
+    <style name="ToolbarText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.Light.Splash" parent="AppTheme.Base">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+</resources>

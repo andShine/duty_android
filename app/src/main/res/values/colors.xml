@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#43CD80</color>
+    <color name="colorPrimaryDark">#3CB371</color>
+    <color name="colorAccent">#ffd600</color>
+    <color name="colorDisabled">#838383</color>
+
+    <color name="windowColor">#ffffff</color>
+    <color name="baseTextColor">#000000</color>
+    <!--分割线颜色-->
+    <color name="lineColor">#dedede</color>
+</resources>
